@@ -26,6 +26,6 @@ def write_to_csv():
         mimetype="text/csv",
         headers={"Content-disposition": "attachment; filename=cars_data.csv"})
 
-
-if __name__ == '__main__':
-    app.run()
+#
+# if __name__ == '__main__':
+#     app.run()
